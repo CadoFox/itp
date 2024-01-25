@@ -1,4 +1,4 @@
-# itp
-## Angel Acevedo - Intro to Programming
-[hyperlink] (google.com)
+# itp - Angel Acevedo
+## Intro to Programming
+[hyperlink] (https://google.com)
 **bold**
