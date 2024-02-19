@@ -1,15 +1,18 @@
-## The way of the program
-- I did know that arithmetic operations in code are called operators
-- I hadn't heard the distinction being referred to as a "Formal Language", and it was kinda cool to find out that stuff like math symbols (or music notation!) are all formal languages!
+# Mice.py
+## Goal:
+###  3
+### 	Blind
+###	    	Mice
 
-## Functions
-- I did know that pretty much anywhere you can input a value, you can use some sort of expression (although I did not know it couldn't go before assigment statement)
-- I did not know that defining a function meant you can just create a function that does what you code it to do when you call on it
+# Documentation
+## First steps: setting up variables with the math operations
 
-## Conditionals and Recursion
-- I did know you cnould find if a number is divisble with the modulus operator, however
-- I did not know that what it was actually doing is giving the remainder
+### I basically just used two variables, created a formatted string, and then just did the math inside the formatted string between the curly brackets
 
-## Lists
-- I did know that the way to access an item in a list is with an index value
-- I did not know that in Python, lists can be anything
+## Next: Print
+
+### In the interest of practicing how they work, I decided to define a function and then call it for this process, instead of just using print function itself (it was also fun to call the function "Mice" lol)
+
+### used \n and \t to format the string according to the requirements
+
+
