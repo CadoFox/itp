@@ -1,10 +1,4 @@
 # Mice.py
-## Goal:
-###  3
-### 	Blind
-###	    	Mice
-
-# Documentation
 ## First steps: setting up variables with the math operations
 
 ### I basically just used two variables, created a formatted string, and then just did the math inside the formatted string between the curly brackets
