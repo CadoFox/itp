@@ -9,4 +9,3 @@ def PrintStuff():
     print(f'hello, {fname}')
 
 PrintStuff()
-
