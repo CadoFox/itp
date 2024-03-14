@@ -22,7 +22,7 @@
         result = x ** n
         return result
 
-### Here the function takes in a base and an exponent, labled "x" and "n". Then, a result variable is initialized, and then assigned with the result of "x" to the power of "n". The function will return the resulting value 
+### The function takes in a base and an exponent, labled "x" and "n". Then, a result variable is initialized, and then assigned with the result of "x" to the power of "n". The function will return the resulting value 
 
 ## Printing the Graph
 
@@ -32,7 +32,7 @@
 
     print_graph(2)
 
-### Here, a "for" loop is used for creating the series of lines representing the equation. The index of the for loop is passed on to the get_power function, and the result is used inside a print function to concatenate the "*" character in each line according to the value stored in "result" after "i" goes through the get_power function using the inputted "n"
+### A "for" loop is used for creating the series of lines representing the equation. The index of the for loop is passed on to the get_power function, and the result is used inside a print function to concatenate the "*" character in each line according to the value stored in "result" after "i" goes through the get_power function using the inputted "n"
 
 # Bonus: 
 ## less efficient version that does also works!
