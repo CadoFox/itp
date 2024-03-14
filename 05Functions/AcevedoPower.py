@@ -3,10 +3,8 @@ def get_power(x,n):
     result = x ** n
     return result
 
-def print_graph():
+def print_graph(n):
     for i in range(-8, 9):
-        print('*' * get_power(i,2))
+        print('*' * get_power(i,n))
 
-print_graph()
-
-##
+print_graph(2)

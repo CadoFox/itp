@@ -7,11 +7,11 @@
         result = x ** n
         return result
 
-    def print_graph():
+    def print_graph(n):
         for i in range(-8, 9):
-        print('*' * get_power(i,2))
+        print('*' * get_power(i,n))
 
-    print_graph()
+    print_graph(2)
 
 # How it Works
 
@@ -26,13 +26,13 @@
 
 ## Printing the Graph
 
-    def print_graph():
+    def print_graph(n):
         for i in range(-8, 9):
-            print('*' * get_power(i,2))
+            print('*' * get_power(i,n))
 
-    print_graph()
+    print_graph(2)
 
-### Here, a "for" loop is used for creating the series of lines representing the equation. The index of the for loop is passed on to the get_power function, and the result is used inside a print function to concatenate the "*" character in each line according to the value stored in "result" after "i" goes through the get_power function
+### Here, a "for" loop is used for creating the series of lines representing the equation. The index of the for loop is passed on to the get_power function, and the result is used inside a print function to concatenate the "*" character in each line according to the value stored in "result" after "i" goes through the get_power function using the inputted "n"
 
 # Bonus: 
 ## less efficient version that does also works!
