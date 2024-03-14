@@ -1,17 +1,12 @@
-result = 0
-
-def get_power(n):
-    base = n
-    power = 2
-    global result
-    result = base ** power
+def get_power(x,n):
+    result = 0 
+    result = x ** n
     return result
 
 def print_graph():
-    global result
     for i in range(-8, 9):
-        get_power(i)
-        print('*' * result)
+        print('*' * get_power(i,2))
 
 print_graph()
 
+##
