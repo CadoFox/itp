@@ -35,7 +35,7 @@
 ### Here, a "for" loop is used for creating the series of lines representing the equation. The index of the for loop is passed on to the get_power function, and the result is used inside a print function to concatenate the "*" character in each line according to the value stored in "result" after "i" goes through the get_power function
 
 # Bonus: 
-## less efficient version that does also work!
+## less efficient version that does also works!
 
     result = 0
     
@@ -55,4 +55,4 @@
 
 ### The improvement from here was mainly reducing the number of variables stored. I initially used a global result value as the storage place for the line being printed at a given moment, and then I remembered the value can be passed on using "return" instead, which allowed me to drastically strip down the code.
 
-### ~also I realized that this version would not meet the requirements for what both functions are supposed to be taking in~
+### ~also I realized that this version would not meet the requirements for what both functions are supposed to be taking in lol~
