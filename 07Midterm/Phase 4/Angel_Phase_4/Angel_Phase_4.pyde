@@ -1,10 +1,11 @@
 unit = 10
-s = .5
-tsl =  (unit/s) * 4
+grid = 10
+canvas = grid * 81
+tsl = unit * 4
 tpoints = [0,0,tsl,0,0,tsl]
 
 def setup():
-    size(520, 520)
+    size(canvas, canvas)
     noStroke()
 
 def drawObject(x,y,s):
@@ -47,8 +48,8 @@ def drawObject(x,y,s):
     rect(
          tpoints[0] + unit,
          tpoints[1] + unit,
-         (tsl) + (unit/s) * 3,
-         (tsl) + (unit/s) * 3,
+         (tsl)*2 - unit,
+         (tsl)*2 - unit,
          )
     pop()
 
@@ -57,6 +58,6 @@ def draw():
     global unit
     x = width
     y = height
-    for i in range(1, x, unit):
-        for j in range(1, y, unit):
-            drawObject(unit * i,unit * j, s)
+    for i in range(1, x, grid):
+        for j in range(1, y, grid):
+            drawObject(unit * i,unit * j, 1)
