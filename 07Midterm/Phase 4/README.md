@@ -63,7 +63,7 @@
                 )
             pop()
 
-## This part is almost the exact same as the previous phase, except for the method i used to draw the rectangle, which just avoids having things as hard coded values and references the unit size a bit better to make it more responsive
+## This part is almost the exact same as the previous phase, except for the method I used to draw the rectangle, which just avoids having things as hard coded values and references the unit size a bit better to make it more responsive
 
 # Updated Draw Function
 
@@ -79,7 +79,7 @@
 ## I used the nested for loops, using the grid value and NOT the unit value to determine by what the counter needs to count by to place the shapes. I then just referenced the two counters in the drawObject function in reference to the unit and NOT the grid, so that the spacing between them wouldnt change, since its referencing the division used to draw the shape, not the division to make the grid
 
 # Challenges / Closing thoughts
-## I was a bit clouded by my own excitement to make this project my own I feel. I did like challenging myself with making the initial code "responsive" while still hitting all the requirements, however when it came time to meet the 4th [hase requirements, it was clear this would need its own documentation, as I would have to significaantly change the structure in order to be able to use the nested for loops properly. Lesson learned once again]
+## I was a bit clouded by my own excitement to make this project my own I feel. I did like challenging myself with making the initial code "responsive" while still hitting all the requirements, however when it came time to meet the 4th phase requirements, it was clear this would need its own documentation, as I would have to significaantly change the structure in order to be able to use the nested for loops properly. Lesson learned once again
 
 
 
