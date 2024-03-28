@@ -1,20 +1,58 @@
-triangleSL = 20
-trianglepoint1 = [0,0]
-trianglepoint2 = [triangleSL,0]
-trianglepoint3 = [0,0]
+unit = 50
+tsl =  unit * 4
+tpoints = [0,0,tsl,0,0,tsl]
 
 def setup():
-    size(400, 400) # Set the size of canvas
-    noStroke() # Disable drawing the stroke
+    size(tsl * 2 + unit * 3, tsl * 2 + unit * 3)
+    noStroke()
 
 def drawObject(x,y,s):
     push()
+    global unit
+    global tsl
+    global tpoints
+    fill(0)
     translate(x,y)
     scale(s)
-    fill(0) # Fill in with black color
-    triangle (0, 0, 20, 0, 0, 20)
+    triangle(
+             tpoints[0],
+             tpoints[1],
+             tpoints[2],
+             tpoints[3],
+             tpoints[4],
+             tpoints[5],
+             )
+    triangle(
+             tpoints[0],
+             tpoints[1] + tsl + unit,
+             tpoints[2],
+             tpoints[3] + (tsl * 2) + unit,
+             tpoints[4],
+             tpoints[5] + tsl + unit,
+             )
+    triangle(
+             tpoints[0] + (tsl * 2) + unit,
+             tpoints[1] ,
+             tpoints[2] + unit ,
+             tpoints[3],
+             tpoints[4] + (tsl * 2) + unit,
+             tpoints[5],
+             )
+    triangle(
+             tpoints[0] + (tsl * 2) + unit,
+             tpoints[1] + (tsl * 2) + unit,
+             tpoints[2] + unit ,
+             tpoints[3] + (tsl * 2) + unit,
+             tpoints[4] + (tsl * 2) + unit,
+             tpoints[5] + unit,
+             )
+    rect(
+         tpoints[0] + unit,
+         tpoints[1] + unit,
+         unit * 7,
+         unit * 7,
+         )
     pop()
 
 def draw():
-    drawObject(0,0,1)
-    drawObject(0,200,1)
+    drawObject(unit,unit,1)
