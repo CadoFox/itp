@@ -1,4 +1,4 @@
-unit = 50
+unit = 30
 amount = 2
 tsl =  unit * 4
 tpoints = [0,0,tsl,0,0,tsl]
