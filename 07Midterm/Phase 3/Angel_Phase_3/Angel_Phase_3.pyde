@@ -6,8 +6,11 @@ def setup():
     size(tsl * 2 + unit * 3, tsl * 2 + unit * 3)
     noStroke()
 
-def draw():
+def drawObject(x,y,s):
+    push()
     fill(0)
+    translate(x,y)
+    scale(s)
     triangle(
              tpoints[0],
              tpoints[1],
@@ -46,3 +49,7 @@ def draw():
          unit * 7,
          unit * 7,
          )
+    pop()
+
+def draw():
+    drawObject(unit,unit,1)

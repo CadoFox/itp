@@ -18,14 +18,8 @@
 
 ## drawObject
 ### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable.
-        def drawObject(x,y,s):
-            push()
-            global unit
-            global tsl
-            global tpoints
+        def draw():
             fill(0)
-            translate(x,y)
-            scale(s)
             triangle(
                     tpoints[0],
                     tpoints[1],
@@ -69,7 +63,6 @@
                 unit * 7,
                 unit * 7,
                 )
-            pop()
 
 ### I then created the middle rectangle, employing the same method using the unit size to set the parameters. I also just referenced the first point of the initial triangle for the upper left of the rectangle, so that its position is relative to wherever that is.
  
