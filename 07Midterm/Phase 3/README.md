@@ -1,5 +1,5 @@
 # Phase 3
-updates __underlined__
+updates <ins>will be underlined</ins>
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
