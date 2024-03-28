@@ -115,3 +115,5 @@
         mismatched input '*' expecting DOUBLESTAR
 
 ### and *this* is when it instructed me to just reference the individual values of the list with the brackets. Lesson learned!
+
+[Here is the link to the conversation](https://chat.openai.com/share/a5c650c0-4784-4d42-871d-e4b4d64751fc)
