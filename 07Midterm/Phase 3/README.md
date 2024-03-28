@@ -1,5 +1,5 @@
 # Phase 3
-### updates in __bold__
+### updates in _bold_
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
