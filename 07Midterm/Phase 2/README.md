@@ -118,4 +118,4 @@
 
 #### *note: it also caught a bug that I didn't even realize was happening, which was just that list indexes start at 0, not 1. This part is also included in the conversation link below.*
 
-[Here is the link to the conversation](https://chat.openai.com/share/a5c650c0-4784-4d42-871d-e4b4d64751fc)
+[Here is the link to the conversation (turns out you can just share the conversations via the webside itself)](https://chat.openai.com/share/a5c650c0-4784-4d42-871d-e4b4d64751fc)
