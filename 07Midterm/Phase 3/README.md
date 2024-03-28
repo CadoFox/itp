@@ -1,5 +1,5 @@
 # Phase 3
-#### updates in **bold**
+updates in **bold**
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
@@ -17,8 +17,10 @@
 ### In this setup function, I aimed to also make the size of the canvas dynamic as well. To do this, I did some basic math using the side length and unit size. This would allow for the canvas size to change dynamically if *either the unit size or the side length of the triangle* were to be changed
 
 
-## drawObject __(previously just "draw")__
-### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. **I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()**
+## drawObject 
+**(previously just "draw")**
+### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. 
+**I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()**
         def drawObject(x,y,s):
             push()
             fill(0)
@@ -67,11 +69,12 @@
                 unit * 7,
                 unit * 7,
                 )
-            **pop()**
+            pop()
 
 ### I then created the middle rectangle, employing the same method using the unit size to set the parameters. I also just referenced the first point of the initial triangle for the upper left of the rectangle, so that its position is relative to wherever that is.
  
 ## Function call
+**new**
 
         def draw():
             drawObject(unit,unit,1)
