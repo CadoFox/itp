@@ -1,5 +1,5 @@
 # Phase 3
-updates _underlined_
+updates __underlined__
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
@@ -21,6 +21,7 @@ updates _underlined_
 _(previously just "draw")_
 ### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. 
 _I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()_
+
         def drawObject(x,y,s):
             push()
             fill(0)
