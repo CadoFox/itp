@@ -91,7 +91,9 @@
 
 ### I tried a few things myself, and had a hard time figuring out how to *search* for the problem online, and could not find anything on the specific result I was after. So I first asked if the ChatGPT model was familiar with processing, which is confirmed, and then presented my problem with the following prompt:
 
-        how can I use a list of integers, assigned to a variable, in a way that allows me to use that list to convert it into just a series of comma separated values that I can then use for the triangle() function.
+        how can I use a list of integers, assigned to a variable, in a way 
+        that allows me to use that list to convert it into just a series 
+        of comma separated values that I can then use for the triangle() function.
 
         for example, heres what I have in my global variables
 
