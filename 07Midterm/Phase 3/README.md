@@ -1,5 +1,5 @@
 # Phase 3
-### updates in **bold**
+### updates in __bold__
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
@@ -17,11 +17,11 @@
 ### In this setup function, I aimed to also make the size of the canvas dynamic as well. To do this, I did some basic math using the side length and unit size. This would allow for the canvas size to change dynamically if *either the unit size or the side length of the triangle* were to be changed
 
 
-## drawObject **(previously just "draw")**
+## drawObject __(previously just "draw")__
 ### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. **I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()**
         def drawObject(x,y,s):
-            **push()**
-            **fill(0)**
+            push()
+            fill(0)
             translate(x,y)
             scale(s)
             triangle(
