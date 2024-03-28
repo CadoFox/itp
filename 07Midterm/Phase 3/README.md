@@ -17,9 +17,8 @@ updates <ins>will be underlined</ins>
 ### In this setup function, I aimed to also make the size of the canvas dynamic as well. To do this, I did some basic math using the side length and unit size. This would allow for the canvas size to change dynamically if *either the unit size or the side length of the triangle* were to be changed
 
 
-## drawObject <ins>(previously just "draw")</ins>
-### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. 
-_I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()_
+## <ins>drawObject (previously just "draw") </ins>
+### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. <ins>I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw() </ins>
 
         def drawObject(x,y,s):
             push()
@@ -73,13 +72,12 @@ _I have also implemented the translate, scale, and push/pop functions, as well a
 
 ### I then created the middle rectangle, employing the same method using the unit size to set the parameters. I also just referenced the first point of the initial triangle for the upper left of the rectangle, so that its position is relative to wherever that is.
  
-_## Function call_
-_new_
+## <ins> Function call </ins>
 
         def draw():
             drawObject(unit,unit,1)
 
-_### Finally, I call the drawObject funtion, and use the unit size to place the drawing_
+### <ins> Finally, I call the drawObject funtion, and use the unit size to place the drawing </ins>
 
 # ChatGPT Disclosure
 
