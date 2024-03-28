@@ -1,9 +1,10 @@
 unit = 50
+amount = 2
 tsl =  unit * 4
 tpoints = [0,0,tsl,0,0,tsl]
 
 def setup():
-    size(tsl * 2 + unit * 3, tsl * 2 + unit * 3)
+    size(tsl * 2 + unit * 3, (tsl * 2 + unit * 3) * amount)
     noStroke()
 
 def drawObject(x,y,s):
@@ -53,3 +54,4 @@ def drawObject(x,y,s):
 
 def draw():
     drawObject(unit,unit,1)
+    drawObject(unit,unit*12,1)
