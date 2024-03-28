@@ -75,9 +75,10 @@ updates <ins>will be underlined</ins>
 ## <ins> Function call </ins>
 
         def draw():
+            drawObject(unit,unit,.5)
             drawObject(unit,unit,1)
 
-### <ins> Finally, I call the drawObject funtion, and use the unit size to place the drawing </ins>
+### <ins> Finally, I call the drawObject funtion twice, and use the unit size to place the drawing </ins>
 
 # ChatGPT Disclosure
 
