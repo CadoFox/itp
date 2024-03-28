@@ -53,5 +53,5 @@ def drawObject(x,y,s):
     pop()
 
 def draw():
-    drawObject(unit,unit,1)
+    drawObject(unit,unit,.5)
     drawObject(unit,unit*12,1)
