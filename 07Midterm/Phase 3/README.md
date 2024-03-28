@@ -1,5 +1,5 @@
 # Phase 3
-updates __underlined__
+updates _underlined_
 
 ## Parameters
 ### My goal was to have the program generate the shapes as dynamically as possible. As such, I had to figure out how to use as little initial parameters as possible instead of just hard coding all the values I needed. 
@@ -18,9 +18,9 @@ updates __underlined__
 
 
 ## drawObject 
-__(previously just "draw")__
+_(previously just "draw")_
 ### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable. 
-__I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()__
+_I have also implemented the translate, scale, and push/pop functions, as well as made this function its own separate of draw()_
         def drawObject(x,y,s):
             push()
             fill(0)
@@ -73,13 +73,13 @@ __I have also implemented the translate, scale, and push/pop functions, as well 
 
 ### I then created the middle rectangle, employing the same method using the unit size to set the parameters. I also just referenced the first point of the initial triangle for the upper left of the rectangle, so that its position is relative to wherever that is.
  
-__## Function call__
-__new__
+_## Function call_
+_new_
 
         def draw():
             drawObject(unit,unit,1)
 
-__### Finally, I call the drawObject funtion, and use the unit size to place the drawing__
+_### Finally, I call the drawObject funtion, and use the unit size to place the drawing_
 
 # ChatGPT Disclosure
 
