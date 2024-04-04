@@ -1,4 +1,4 @@
-unit = 10
+unit = 2
 grid = 10
 canvas = grid * 81
 tsl = unit * 4
