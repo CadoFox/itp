@@ -6,7 +6,7 @@
 
 My main goal for this website is to have an all in one hub I can send people to for literally anything related to the CadoFox project. I produce music, make visual art, take commissions, and play shows, so I would like all of those things to have a place on this website. On top of being very practical, I am after a very minimal and sophisticated look, that puts the emphasis on the visual direction I have for the CadoFox project, with a focus on the visual aspect for the main landing page.
 
-[CBU3D](CBU3D.com) is a friend of mine, and his website is a perfec example of what I mean, and I will be drawing a lot of inspiration (and possibly some bits of HTML haha, he built it with an editor) from it, with plenty of differences to make it my own.
+[CBU3D](CBU3D.com) is a friend of mine, and his website is a perfect example of what I mean, and I will be drawing a lot of inspiration (and possibly some bits of HTML haha, he built it with an editor) from it, with plenty of differences to make it my own.
 
 The jumping point for this website is a template I found from the website that was provided, that I will be modifying heavily to fit my needs. This will involve lots of looking at documentation, as the template is quite sophisticated and has a lot of existing moving parts. However, I feel that the things I would like to implement have a nice sliding scale from purely functional to fancy looking, so getting to a working website I can continue to expand upon is attainable
 
