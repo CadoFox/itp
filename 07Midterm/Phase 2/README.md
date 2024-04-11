@@ -16,7 +16,7 @@
 ### In this setup function, I aimed to also make the size of the canvas dynamic as well. To do this, I did some basic math using the side length and unit size. This would allow for the canvas size to change dynamically if *either the unit size or the side length of the triangle* were to be changed
 
 
-## drawObject
+## Draw function
 ### In my goal of making this code as dynamic as possible, I also wanted it to be fairly readable.
         def draw():
             fill(0)
