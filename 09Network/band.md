@@ -1,11 +1,3 @@
-Every group member submits an individual markdown file to Canvas. The markdown file
-must include:
-- A hyperlink to the site you all made
-- Problems faced, decisions made (as in other weeks)
-- A self-assessment of how you contributed to the group
-- Short assessments of your group members and the contributions they made
-
-
 # BAND PROJECT: The "The Band" Band
 
 [The "The Band" Band](https://oldshoes3.github.io/)
