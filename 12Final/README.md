@@ -7,7 +7,7 @@ I settled on [this one](https://html5up.net/uploads/demos/big-picture/), which a
 
 # Header
 
-## Goal: Transparent statiic floating header with logo
+## Goal: Transparent static floating header with logo
 
 This was actually an element I wanted to carry over from my last attempt to use an "all in one editor" to make my website. I like the idea of simplicity and letting the content do the work, much like the inspirations I drew from, so I like the idea of the buttons and icon just floating over top everything out of the way
 
