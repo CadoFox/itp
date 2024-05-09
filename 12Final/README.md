@@ -1,9 +1,19 @@
 # Final Project - "CadoFox.com" Portfolio Website
 
+# [Link to the website!](cadofox.com)
+
 ## Approach: Heavily modifying template
 ### I should first mention that for this project, I chose to browse the website provided for a template that matched what I was after as closely as possible
 
 I settled on [this one](https://html5up.net/uploads/demos/big-picture/), which actually put me quite ahead as it was pretty damn close to what I wanted
+
+# Custom Domain
+
+The first thing I did was actually figure out how to use my custom domain with the site! Much to my enjoyment, it was not that hard, so the money I have been spending to keep "cadofox.com" was not in vain!
+
+It basically just involved adding some lines to the records of my google domain (though I had to wipe it clean of the google site I was originally using first), and then just attach it in the settings of the pages repo!
+
+Very very happy about this. I very much enjoy that I can now just tell people to "go to cadofox.com". Much more marketable!
 
 # Header
 
