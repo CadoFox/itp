@@ -248,7 +248,7 @@ I did run into some issues with the way it handles updating what the CSS can see
 
 I did try quite a few variations of asking it specific quiestions surrounding solving the showcase section issues, however literally none of it worked because it simple did not understand what I was asking it. After a few tries, I gave up, as I was getting nowhere and learning nothing, so none of that HTML or CSS was of any use other than how to NOT do what I was trying to do haha
 
-## Future Plans
+# Future Plans
 
 As I get better at website building, I think eventually I will want a much more interesting advanced design, however, my more immediate plans for this would be
 
