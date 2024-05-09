@@ -1,6 +1,6 @@
 # Final Project - "CadoFox.com" Portfolio Website
 
-# [Link to the website!](cadofox.com)
+# [Link to the website!](https://cadofox.com/)
 
 ## Approach: Heavily modifying template
 ### I should first mention that for this project, I chose to browse the website provided for a template that matched what I was after as closely as possible
